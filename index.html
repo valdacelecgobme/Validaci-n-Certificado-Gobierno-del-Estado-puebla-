@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título Auténtico - JAIR ISAAC RIVERA ESCOBAR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Arial", sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+        }
+
+        .document-container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        /* === HEADER === */
+        .header-banner {
+            background-color: #70163C;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .header-banner h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .header-banner p {
+            font-size: 1.2rem;
+            margin-top: 8px;
+            border-top: 1px solid #fff;
+            padding-top: 8px;
+        }
+
+        /* === MAIN CONTENT === */
+        .content {
+            padding: 40px 50px;
+            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20,0 C20,20 40,40 60,60 C80,80 100,80 100,60' fill='none' stroke='%23e8e8e8' stroke-width='1'/%3E%3C/svg%3E");
+            background-size: 200px;
+            background-repeat: repeat;
+        }
+
+        .verified-badge {
+            text-align: right;
+            font-size: 1rem;
+            margin-bottom: 25px;
+        }
+
+        .title-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 30px;
+        }
+
+        .main-title {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #000;
+            border-bottom: 2px solid #70163C;
+            padding-bottom: 4px;
+        }
+
+        .link-consulta {
+            font-size: 1rem;
+            color: #0047AB;
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título Auténtico - JAIR ISAAC RIVERA ESCOBAR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Arial", sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+        }
+
+        .document-container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        /* === HEADER === */
+        .header-banner {
+            background-color: #70163C;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .header-banner h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .header-banner p {
+            font-size: 1.2rem;
+            margin-top: 8px;
+            border-top: 1px solid #fff;
+            padding-top: 8px;
+        }
+
+        /* === MAIN CONTENT === */
+        .content {
+            padding: 40px 50px;
+            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20,0 C20,20 40,40 60,60 C80,80 100,80 100,60' fill='none' stroke='%23e8e8e8' stroke-width='1'/%3E%3C/svg%3E");
+            background-size: 200px;
+            background-repeat: repeat;
+        }
+
+        .verified-badge {
+            text-align: right;
+            font-size: 1rem;
+            margin-bottom: 25px;
+        }
+
+        .title-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 30px;
+        }
+
+        .main-title {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #000;
+            border-bottom: 2px solid #70163C;
+            padding-bottom: 4px;
+        }
+
+        .link-consulta {
+            font-size: 1rem;
+            color: #0047AB;
+            text-decoration: underline;
+        }
+
+        .btn-detail {
+            background-color: #0F5132;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            cursor: default;
+        }
+
+        .info-row {
+            margin: 14px 0;
+            font-size: 1rem;
+        }
+
+        .info-label {
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .folio-text {
+            font-family: monospace;
+            font-size: 0.95rem;
+            color: #333;
+        }
+
+        .institucion-box {
+            margin-top: 30px;
+            padding-top: 15px;
+        }
+
+        .inst-label {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        /* === FOOTER === */
+        .footer {
+            background-color: #70163C;
+            color: #ffffff;
+            padding: 25px 50px;
+            font-size: 0.85rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .footer-col h4 {
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            margin: 4px 0;
+        }
+
+        .footer-col a {
+            color: #ddd;
+            text-decoration: none;
+        }
+
+        .footer-col a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 8px;
+        }
+
+        .social-icons span {
+            background: rgba(255,255,255,0.2);
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        .alert-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 8px;
+        }
+
+        .alert-icon {
+            background: #fff;
+            color: #70163C;
+            font-weight: bold;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+        }
+
+        /* Imprimir sin bordes extras */
+        @media print {
+            .document-container { border: none; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="document-container">
+
+    <!-- HEADER -->
+    <div class="header-banner">
+        <h1>GOBIERNO DE MÉXICO</h1>
+        <p>SISTEMA EDUCATIVO DEL ESTADO DE PUEBLA</p>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="content">
+        <p class="verified-badge">Validados por la DGAIR</p>
+
+        <div class="title-row">
+            <h2 class="main-title">Título Auténtico</h2>
+            <a href="#" class="link-consulta">Consulta de títulos electrónicos</a>
+        </div>
+
+        <button class="btn-detail">Detalle del Documento</button>
+
+        <div class="info-section">
+            <div class="info-row">
+                <div class="info-label">Nombre:</div>
+                <div>JAIR ISAAC RIVERA ESCOBAR</div>
+            </div>
+
+            <div class="info-row">
+                <div class="info-label">Carrera:</div>
+                <div>INGENIERÍA EN LOGÍSTICA DE TRANSPORTE</div>
+            </div>
+
+            <div class="info-row">
+                <div class="info-label">Nivel:</div>
+                <div>TITULADO</div>
+            </div>
+
+            <div class="info-row">
+                <div class="info-label">Folio Digital:</div>
+                <div class="folio-text">235C69CI-89-78-42A4-AD82-1F995DE8ECD3</div>
+            </div>
+
+            <div class="institucion-box">
+                <div class="inst-label">Institución Emisora</div>
+                <div>UNIVERSIDAD DE VALLE ZACAPOAXTLA PUEBLA PUAV</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <div class="footer">
+        <div class="footer-col">
+            <h4>Enlaces</h4>
+            <ul>
+                <li><a href="#">Datos abiertos de la SABG</a></li>
+                <li><a href="#">Marco Jurídico</a></li>
+                <li><a href="#">Plataforma Nacional de Transparencia</a></li>
+                <li><a href="#">Transparencia para el pueblo</a></li>
+                <li><a href="#">Alerta</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>¿Qué es gob.mx?</h4>
+            <p>Es el portal único de trámites, información y participación ciudadana.</p>
+            <a href="#">Leer más</a>
+            <ul>
+                <li><a href="#">Portal de datos abiertos</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Denuncia contra servidores públicos</h4>
+            <h4>Síguenos en</h4>
+            <div class="social-icons">
+                <span>f</span>
+                <span>𝕏</span>
+                <span>📷</span>
+            </div>
+            <div class="alert-badge">
+                <span class="alert-icon">!</span>
+                <span>079<br><small>Ciudadanía sin violencia</small></span>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <!-- Espacio para logo Gobierno de México -->
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+￼Enter            text-decoration: underline;
+        }
+
+        .btn-detail {
+            background-color: #0F5132;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            cursor: default;
+        }
+
+        .info-row {
+            margin: 14px 0;
+            font-size: 1rem;
+        }
+
+        .info-label {
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .folio-text {
+            font-family: monospace;
+            font-size: 0.95rem;
+            color: #333;
+        }
+
+        .institucion-box {
+            margin-top: 30px;
+            padding-top: 15px;
+        }
+
+        .inst-label {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        /* === FOOTER === */
+        .footer {
+            background-color: #70163C;
+            color: #ffffff;
+            padding: 25px 50px;
+            font-size: 0.85rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .footer-col h4 {
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            margin: 4px 0;
+        }
+
+        .footer-col a {
+            color: #ddd;
+            text-decoration: none;
+        }
+
+        .footer-col a:hover {
+      text-decoration: underline;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 8px;
+        }
+
+        .social-icons span {
+            background: rgba(255,255,255,0.2);
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        .alert-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 8px;
+        }
+
+        .alert-icon {
+            background: #fff;
+            color: #70163C;
+            font-weight: bold;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+        }
+
+        /* Imprimir sin bordes extras */
+        @media print {
+            .document-container { border: none; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="document-container">
+
+    <!-- HEADER -->
+    <div class="header-banner">
+        <h1>GOBIERNO DE MÉXICO</h1>
+        <p>SISTEMA EDUCATIVO DEL ESTADO DE PUEBLA</p>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="content">
+        <p class="verified-badge">Validados por la DGAIR</p>
+
+        <div class="title-row">
+            <h2 class="main-title">Título Auténtico</h2>
+            <a href="#" class="link-consulta">Consulta de títulos electrónicos</a>
+        </div>
+
+        <button class="btn-detail">Detalle del Documento</button>
+
+        <div class="info-section">
+            <div class="info-row">
+                <div class="info-label">Nombre:</div>
